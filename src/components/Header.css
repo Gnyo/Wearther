@@ -29,20 +29,8 @@
     }
   }
 
-/* 위치 아이콘 스타일링 */
-.weather-location svg {
+  .weather-location svg {
     color: var(--supporting-color);
-}
-
-/* 다크 모드 유지 */
-@media (prefers-color-scheme: dark) {
-    .weather-location svg {
-        color: var(--icon-color-dark);
-    }
-    
-    .weather-location:hover svg {
-        color: var(--text-gray);
-    }
 }
 
 .weather-location span {
