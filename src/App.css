@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;300;400;500;600;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: 'Noto Sans KR', sans-serif;
+  --size-1: 0.8rem;
+  --size-2: 0.9rem;
+  --size-3: 1rem;
+  --size-4: 1.1rem;
+  --size-5: 1.2rem;
+}
+
+:root[data-theme='light'] {
+  --bg-color: #F5F4F1;      /* 배경 */
+  --card-bg-color: #F9F3E9; /* 카드 배경 */
+  --card-border-color: rgba(201, 201, 201, 0.3);    /* 카드 테두리 색상 */
+  --text-color: #333333;    /* 텍스트 색상 */
+  --text-color-light: #777777; /* 연한 텍스트 색상 */
+  --point-color: #F4A261;    /* 포인트 색상 */
+  --supporting-color: #FFD683;  /* 보조 색상 */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-black: 900;
+}
+
+:root[data-theme='dark'] {
+  --bg-color: #2F3E46;      /* 배경 */
+  --card-bg-color: #354F52; /* 카드 배경 */
+  --card-border-color:rgba(201, 201, 201, 0.3); /* 카드 테두리 색상 */
+  --text-color: #F1FAEE;    /* 텍스트 색상 */
+  --text-color-light: #999999; /* 연한 텍스트 색상 */
+  --point-color: #F4A261;    /* 포인트 색상 */
+  --supporting-color: #E76F51;  /* 보조 색상 */
+  --font-weight-light: 200;
+  --font-weight-regular: 300;
+  --font-weight-medium: 400;
+  --font-weight-semibold: 500;
+  --font-weight-black: 900;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease; /* 모든 변수에 대한 전환 효과 */
+  max-width: 600px; /* 최대 너비를 800px로 고정 */
+  margin: 0 auto; /* 중앙 정렬 */
+  padding: 0 1rem; /* 좌우 여백 */
+  min-height: 100vh; /* 최소 높이 설정 */
+  -webkit-font-smoothing: antialiased; /* 폰트 렌더링 개선 */
+  -moz-osx-font-smoothing: grayscale; /* 폰트 렌더링 개선 */
+  overflow-y: scroll; /* 스크롤 유지 */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* 모바일 환경 대응 */
+@media screen and (max-width: 400px) {
+  :root {
+    --size-1: 0.7rem;
+    --size-2: 0.8rem;
+    --size-3: 0.9rem;
+    --size-4: 1rem;
+    --size-5: 1.1rem;
+  }
+
+  body {
+    padding: 0 0.5rem;
+  }
+}
+
+/* 스크롤바 전체 */
+::-webkit-scrollbar {
+  width: 5px;    /* 수직 스크롤 */
+  height: 5px;   /* 수평 스크롤 */
+}
+::-webkit-scrollbar:vertical {
+  display: none;  /* 세로만 감춤 */
+}
+/* 스크롤바 트랙 (배경) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* 스크롤바 핸들 (움직이는 부분) */
+::-webkit-scrollbar-thumb {
+  background: var(--supporting-color);
+  border-radius: 4px;
+}
+
+/* 스크롤바 핸들 hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--point-color);
+}
+

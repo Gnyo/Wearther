@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-family: 'Noto Sans KR', sans-serif;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  color: var(--bg-color);
+  cursor: pointer;
+  font-size: var(--size-2);
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  opacity: 0.8;
+}
+
+.theme-toggle-container {
+  width: 100%;
+  font-family: var(--font-family); /* Noto Sans KR 폰트 적용 */
+}
+
+.theme-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--card-bg-color); /* 기본 배경색 */
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.theme-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+  font-size: var(--size-3);
+  font-weight: var(--font-weight-regular);
+  color: var(--text-color);
+}
+
+.theme-option input {
+  margin-top: 0.3rem;
+  cursor: pointer;
+}
+
+.theme-option input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid #c9c9c9;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.theme-option input[type="radio"]::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0.75rem;  /* 내부 원 크기 */
+  height: 0.75rem;
+  background-color: var(--point-color);
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  pointer-events: none; /* 클릭 방지 */
+}
+.theme-option input[type="radio"]:checked::after {
+  opacity: 1;
+}
+
+.radio-circle {
+  display: inline-block;
+  width: 1.5px; /* 크기 증가 */
+  height: 1.5px; /* 크기 증가 */
+  border: 2px solid var(--text-color);
+  border-radius: 50%;
+  margin-top: 0.5rem;
+}
+
+.theme-option.active .radio-circle {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}

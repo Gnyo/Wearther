@@ -1,0 +1,68 @@
+.weekly-list {
+  list-style: none;
+    padding: 0.5rem 1rem;
+    margin: 0;
+  }
+  
+  .weekly-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
+  
+  .date,
+  .daily-rain,
+  .weather-icon,
+  .temp-range {
+    display: flex;
+    align-items: center;
+  }  
+
+  .date {
+    width: 4rem;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: var(--size-3);
+    color: var(--text-color);
+    font-weight: var(--font-weight-regular);
+  }
+  
+  .daily-rain {
+    width: 4rem;
+    font-size: var(--size-2);
+    font-weight: var(--font-weight-light);
+    color: var(--text-color);
+    justify-content: center;
+  }
+
+  .weather-icon.dual {
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+  }
+  
+  .temp-range {
+    width: 9rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.4rem;
+    color: var(--text-color);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--size-2);
+  }
+  
+  .temp-divider {
+    color: var(--supporting-color);
+  }
+
+@media (max-width: 350px) {
+  .weather-icon.dual {
+    width: 3rem;
+  }
+  .weekly-item {
+    padding: 0.2rem;
+  }
+}

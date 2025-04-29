@@ -1,0 +1,30 @@
+.outfit-container {
+    width: 100%;
+    height: calc(100vh - 70px); /* 헤더와 푸터를 제외한 높이 */
+    padding: 70px 1rem;  /* 헤더와 푸터 고려한 패딩 */
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    margin: 0 auto;
+  }
+
+.weather-message {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: var(--font-weight-regular);
+  color: var(--text-color);
+}
+
+.weather-message .divider {
+  width: 85%;
+  margin: 0.5rem auto;
+  border: none;
+  border-top: 1px solid var(--supporting-color);
+}
+
+@media screen and (max-width: 400px) {
+  .weather-message {
+    font-size: 0.9rem;
+  }
+}

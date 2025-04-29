@@ -1,0 +1,11 @@
+.recommendation-text {
+  font-weight: var(--font-weight-medium);
+  font-size: var(--size-3);
+  text-align: center;
+  color: var(--text-color);
+}
+
+.separator {
+  color: var(--card-border-color);
+  font-weight: var(--font-weight-regular);
+}

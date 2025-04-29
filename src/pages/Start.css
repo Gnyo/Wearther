@@ -1,0 +1,18 @@
+.start-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--bg-color); /* 다크모드 지원 */
+  }
+  
+  .logo {
+    width: 8rem; /* 이미지 너비를 줄임 */
+    height: auto; /* 비율을 유지하며 높이를 자동 조정 */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* 부드러운 애니메이션 */
+  }
+  
+  .logo.fade-in {
+    opacity: 1;
+    transform: scale(1);
+  }

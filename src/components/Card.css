@@ -1,0 +1,26 @@
+.card {
+  margin: 0;
+  padiing 0;
+}
+
+.card-container {
+  padding: 0.1rem;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid var(--card-border-color);
+  background-color: var(--card-bg-color);
+}
+
+.card-title {
+  font-size: var(--size-4);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-color);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1%;
+}
+
+.card-content {
+  border-radius: 10px;
+  background-color: transparent;
+}

@@ -1,0 +1,50 @@
+.air-card {
+  flex: 1;
+  min-width: 0; /* 넘침 방지 */
+}
+
+.air-quality-container {
+  display: flex;
+  gap: 1rem;                  /* 카드 사이 간격 */
+  width: 100%;
+}
+
+.quality-item {
+  flex: 1;
+  min-width: 0; /* 👈 이게 중요: 줄어들 수 있어야 flex가 균등 작동 */
+  text-align: center;
+  padding: 0.8rem 0;
+  border-radius: 8px;
+  background-color: var(--card-bg-color);
+}
+
+.quality-item h3 {
+  margin: 0;
+  font-size: var(--size-3);
+  font-weight: var(--font-weight-regular);
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.quality-item hr {
+  border: none;
+  height: 1px;
+  border-top: 1px solid var(--supporting-color);
+  margin: 0.5rem auto;
+  width: 85%;
+}
+
+.quality-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: var(--size-2);
+  font-weight: var(--font-weight-light);
+}
+
+.quality-status .icon {
+  font-size: var(--size-2);
+  display: flex;
+  justify-content: center;
+}

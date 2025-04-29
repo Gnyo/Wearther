@@ -1,0 +1,70 @@
+.weather-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 800px; /* 가로 최대 크기 설정 */
+    margin: 0 auto; /* 중앙 정렬 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.0rem;
+    background-color: var(--bg-color);
+    z-index: 1000;
+}
+
+.weather-location {
+    font-weight: var(--font-weight-medium);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: var(--size-5);
+    gap: 0.3rem;
+    transition: transform 0.2s ease;
+}
+
+@media (min-width: 400px) {
+    .weather-location {
+      gap: 0.5rem;
+    }
+  }
+
+/* 위치 아이콘 스타일링 */
+.weather-location svg {
+    color: var(--supporting-color);
+}
+
+/* 다크 모드 유지 */
+@media (prefers-color-scheme: dark) {
+    .weather-location svg {
+        color: var(--icon-color-dark);
+    }
+    
+    .weather-location:hover svg {
+        color: var(--text-gray);
+    }
+}
+
+.weather-location span {
+    color: var(--text-color-fixed);
+}
+
+.settings-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+.settings-btn svg {
+    color: var(--text-color);
+}
+
+.settings-btn:hover {
+    transform: scale(0.9);
+}
