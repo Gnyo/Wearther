@@ -1,7 +1,7 @@
 const getAddressFromCoords = async (lat, lon) => {
   try {
     // 프록시 서버 호출
-    const response = await fetch(`http://localhost:4000/api/address?lat=${lat}&lon=${lon}`);
+    const response = await fetch(`/api/address?lat=${lat}&lon=${lon}`);
 
     if (!response.ok) {
       console.error("❌ 프록시 서버 요청 실패:", response.status);
