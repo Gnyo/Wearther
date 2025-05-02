@@ -1,4 +1,4 @@
-# Capston Design 기획서
+# Capstone Design 기획서
 
 ## 📌 프로젝트 개요
 
