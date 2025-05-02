@@ -1,9 +1,13 @@
-# Wearther 🌦️
+# Wearther🌦️
 
 Wearther is a weather-based outfit recommendation web app built with React and Vite.  
 It provides real-time weather data including temperature and UV index based on your current location, and suggests suitable clothing accordingly.
 
-## Tech Stack
+## 📑 Project Reports
+
+You can view the capstone project plan and weekly progress reports in the [Capstone_Design](./Capstone_Design) folder.
+
+## 🛠️ Tech Stack
 
 - **Frontend**: React, Vite
 - **Backend**: Node.js, Express
@@ -12,7 +16,7 @@ It provides real-time weather data including temperature and UV index based on y
 - **Icons**: React Icons
 - **Fonts**: Noto Sans (Google Fonts)
 
-## Features
+## ✨ Features
 
 - Fetches real-time weather data based on user's geolocation
 - Displays current temperature, weather conditions, and UV index
@@ -20,7 +24,7 @@ It provides real-time weather data including temperature and UV index based on y
 - Supports keyword-based location search using Kakao Map API
 - Responsive UI design for both desktop and mobile users
 
-## License
+## 📄 License
 
 This project uses the following third-party assets:
 
