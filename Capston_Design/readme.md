@@ -27,14 +27,14 @@
 
 | 기간 | 목표 | 세부 작업 |
 |------|------|-----------|
-| [**1주차**](https://github.com/Gnyo/wearther/tree/main/1%EC%A3%BC%EC%B0%A8) (03.05 ~ 03.11) | 기획 및 기능 정의 | 웹 서비스 방향 설정, 유사 서비스 벤치마킹, 기술 스택 확정 |
-| [**2주차**](https://github.com/Gnyo/wearther/tree/main/2%EC%A3%BC%EC%B0%A8) (03.12 ~ 03.18) | 개발 환경 세팅 | React 프로젝트 생성, 날씨 API 테스트, Geolocation 연동  |
-| [**3주차**](https://github.com/Gnyo/wearther/tree/main/3%EC%A3%BC%EC%B0%A8) (03.19 ~ 03.25) | 와이어프레임 제작 | Figma 흐름도 제작, UI 구성 |
-| [**4주차**](https://github.com/Gnyo/wearther/tree/main/4%EC%A3%BC%EC%B0%A8) (03.26 ~ 04.01) | 프로토타입 제작 + API 수정 | Figma 시안 및 클릭 프로토타입 구성, 날씨 API 수정 및 테스트 |
-| [**5주차**](https://github.com/Gnyo/wearther/tree/main/5%EC%A3%BC%EC%B0%A8) (04.02 ~ 04.08) | 메인 기능 개발 | 위치 기반 날씨 조회 구현, 기온 범위별 의류 추천 조건 작성 및 코드 구현 |
-| [**6주차**](https://github.com/Gnyo/wearther/tree/main/6%EC%A3%BC%EC%B0%A8) (04.09 ~ 04.15) | 추가 기능 구현 | 카드 UI 작업, 테마 설정 |
-| [**7주차**](https://github.com/Gnyo/wearther/tree/main/7%EC%A3%BC%EC%B0%A8) (04.16 ~ 04.22) | 반응형 디자인 + 오류 처리 | 화면 크기 대응, 에러 핸들링, UX 디테일 다듬기 |
-| [**8주차**](https://github.com/Gnyo/wearther/tree/main/8%EC%A3%BC%EC%B0%A8) (04.23 ~ 04.29) | 최종 마무리 및 배포 | 웹 호스팅, favicon/SEO 설정, 사용 매뉴얼 작성 |
+| [**1주차**](https://github.com/Gnyo/wearther/blob/main/Capston_Design/1%EC%A3%BC%EC%B0%A8.md) (03.05 ~ 03.11) | 기획 및 기능 정의 | 웹 서비스 방향 설정, 유사 서비스 벤치마킹, 기술 스택 확정 |
+| [**2주차**](https://github.com/Gnyo/wearther/blob/main/Capston_Design/2%EC%A3%BC%EC%B0%A8.md) (03.12 ~ 03.18) | 개발 환경 세팅 | React 프로젝트 생성, 날씨 API 테스트, Geolocation 연동  |
+| [**3주차**](https://github.com/Gnyo/wearther/blob/main/Capston_Design/3%EC%A3%BC%EC%B0%A8.md) (03.19 ~ 03.25) | 와이어프레임 제작 | Figma 흐름도 제작, UI 구성 |
+| [**4주차**](https://github.com/Gnyo/wearther/blob/main/Capston_Design/4%EC%A3%BC%EC%B0%A8.md) (03.26 ~ 04.01) | 프로토타입 제작 + API 수정 | Figma 시안 및 클릭 프로토타입 구성, 날씨 API 수정 및 테스트 |
+| [**5주차**](https://github.com/Gnyo/wearther/blob/main/Capston_Design/5%EC%A3%BC%EC%B0%A8.md) (04.02 ~ 04.08) | 메인 기능 개발 | 위치 기반 날씨 조회 구현, 기온 범위별 의류 추천 조건 작성 및 코드 구현 |
+| [**6주차**](https://github.com/Gnyo/wearther/blob/main/Capston_Design/6%EC%A3%BC%EC%B0%A8.md) (04.09 ~ 04.15) | 추가 기능 구현 | 카드 UI 작업, 테마 설정 |
+| [**7주차**](https://github.com/Gnyo/wearther/blob/main/Capston_Design/7%EC%A3%BC%EC%B0%A8.md) (04.16 ~ 04.22) | 반응형 디자인 + 오류 처리 | 화면 크기 대응, 에러 핸들링, UX 디테일 다듬기 |
+| [**8주차**](https://github.com/Gnyo/wearther/blob/main/Capston_Design/8%EC%A3%BC%EC%B0%A8.md) (04.23 ~ 04.29) | 최종 마무리 및 배포 | 웹 호스팅, favicon/SEO 설정, 사용 매뉴얼 작성 |
 
 ---
 
